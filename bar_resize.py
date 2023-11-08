@@ -8,11 +8,7 @@
 from direct.gui.DirectGui import DGG
 
 import random
-import time
 
-from panda_interface_glue import panda_interface_glue as pig
-from panda_interface_glue import drag_main
-from panda3d.core import ClockObject
 from direct.showbase.ShowBase import ShowBase
 from direct.showbase import DirectObject
 from direct.gui.DirectGui import DirectFrame
@@ -20,7 +16,7 @@ from direct.gui.DirectGui import DirectFrame
 
 class Barresize():
     def __init__(self, base):
-        a = 1
+        
         self.dragged = None
         self.base = base
 
